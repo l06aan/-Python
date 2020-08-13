@@ -59,9 +59,9 @@ while T >= 1:
 a = float(input("Введите выручку "))
 b = float(input("Введите издержки "))
 if a > b:
-    print(f"Рентабельность {profit / costs:.2f}")
+    print(f"Рентабельность {a / b:.2f}")
     c = int(input("Кол-во сотрудников "))
-    print(f"Прибыль на одного {profit / workers:.2f}")
+    print(f"Прибыль на одного {a / b:.2f}")
 elif a == b:
     print("В ноль")
 else:
